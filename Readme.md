@@ -17,3 +17,9 @@ docker-compose down -d
 ```bash
 docker-compose down -d -rmi all -v
 ```
+
+## restart containers 
+
+```bash
+docker-compose restart service_name
+```
